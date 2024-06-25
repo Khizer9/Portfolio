@@ -11,6 +11,10 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import meriSehat from "../../Assets/meriSehat.jpeg";
 import goldPesa from "../../Assets/goldPesa.png";
 import bide from "../../Assets/bide.png";
+import glowza from "../../Assets/glowza.png";
+import amanrasoft from "../../Assets/amanrasoft.png";
+import inoventive from "../../Assets/inoventive.png";
+import youtubeClone from "../../Assets/youtubeClone.png";
 
 function Projects() {
   return (
@@ -61,6 +65,54 @@ function Projects() {
               description="GoldPesa ($GPX) is a unique asset-backed hybrid token whereby one token is backed by one gram of a physical gold, stored in secure vaults. In addition token holders are able to have fractional ownership of physical bars and the upside of the crypto markets which makes GPX a hybrid gold-backed token with upside and not a stable coin."
               // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               demoLink="https://www.goldpesa.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={glowza}
+              isBlog={false}
+              style={{marginTop: '50px'}}
+              title="Glowza Digital"
+              description="Glowza Digital is the animated video company you require to market your brand. Our video animation services provide strong market pillars to a brand newly launched. Moreover, with the brands serving for decades, we have served them with top-notch quality animated videos to match their business objectives and goals. Glowza Digital has created animated videos that are direct leads to potential customers."
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink="https://glowzadigital.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={amanrasoft}
+              isBlog={false}
+              style={{marginTop: '50px'}}
+              title="Amanrasoft"
+              description="Amanrasoft is 21st century’s information technology service provider company having the aim for delivering Information Technology and business solutions to the customers across the globe. Amanrasoft is a software company based in Pakistan, specializing in web and mobile application development."
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink="https://amanrasoft.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={youtubeClone}
+              isBlog={false}
+              style={{marginTop: '50px'}}
+              title="Youtube Cloned"
+              description="This project is a YouTube clone built using ReactJS for the front-end and Tailwind CSS for the UI design. It offers a fully responsive design, ensuring a seamless experience across desktops, tablets, and mobile devices. The application aims to replicate the core functionalities of YouTube, providing a familiar and intuitive interface for users."
+              ghLink="https://github.com/Khizer9/youtube_clone_react"
+              demoLink="https://youtubeecloned.netlify.app/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={inoventive}
+              isBlog={false}
+              style={{marginTop: '50px'}}
+              title="Inoventive Digital"
+              description="We help you drive more traffic and users to your websites and expand your brand on the digital landscape by incorporating a people centric approach. We firmly recognize that the technological foundation of a company holds the power to either propel its productivity and ROI or hinder its progress."
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink="https://inoventivedigital.netlify.app/"
             />
           </Col>
 
