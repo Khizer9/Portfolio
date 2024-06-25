@@ -8,6 +8,9 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import meriSehat from "../../Assets/meriSehat.jpeg";
+import goldPesa from "../../Assets/goldPesa.png";
+import bide from "../../Assets/bide.png";
 
 function Projects() {
   return (
@@ -21,6 +24,46 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={meriSehat}
+              isBlog={false}
+              style={{marginTop: '25px'}}
+              title="Meri Sehat"
+              description="Meri Sehat is a product company based in pakistan. Meri Sehat is the Pakistan's first and only Artificial Intelligence powered healthcare platform. Designed a user-friendly interface for the 'Find A Doctor' & 'Wallet' module. Created the architecture for components, integrated APIs, markup, and addressed bug fixes."
+              // ghLink="https://github.com/Khizer9/Todo-with-MangoDB"
+              demoLink="https://merisehat.pk/"
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bide}
+              isBlog={false}
+              style={{marginTop: '50px'}}
+              title="Bide Educator"
+              description="Bide Educator is a health management project based on ReactJS. Within this system, the educator plays a management role and monitors both doctors and patients. There are two separate websites: one for doctors and one for patients. In this setup, doctors and patients can schedule appointments with each other. They will first arrange an appointment and then decide whether the consultation will be conducted via audio or video call based on their preference. Please note that this application has not been officially launched yet.
+              Login: educator@merisehat.pk
+              password: 0000"
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://educator.ndnstaging.merisehat.pk/login"    
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={goldPesa}
+              isBlog={false}
+              style={{marginTop: '50px'}}
+              title="GoldPesa"
+              description="GoldPesa ($GPX) is a unique asset-backed hybrid token whereby one token is backed by one gram of a physical gold, stored in secure vaults. In addition token holders are able to have fractional ownership of physical bars and the upside of the crypto markets which makes GPX a hybrid gold-backed token with upside and not a stable coin."
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink="https://www.goldpesa.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -54,39 +97,6 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="It's helps you keep track for things you want to. A user can delete/edit a task. And click on ✓ after completing a task."
-              ghLink="https://github.com/Khizer9/Todo-with-MangoDB"
-              demoLink="https://todoappwithsignin.netlify.app/"
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
